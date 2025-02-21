@@ -2,8 +2,7 @@
 java Restful API Web criada para dio.me bootcamp decola tech2025
 
 #Diagrama de Classes
-...mermaid
-
+```mermaid
 classDiagram
     class User {
         +string name
@@ -39,4 +38,4 @@ classDiagram
     User --> Feature : has multiple
     User --> Card
     User --> News : has multiple
-...
+```
